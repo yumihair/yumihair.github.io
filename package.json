@@ -1,7 +1,7 @@
 {
   "name": "yumi-hair",
   "version": "0.1.0",
-  "homepage": "https://yumihair.github.io.git/react-gh-pages",
+  "homepage": "https://yumihair.github.io/react-gh-pages",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
