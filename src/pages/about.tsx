@@ -21,10 +21,9 @@ function About() {
           alt="balayage hair"
           style={{
             width: '100%',
-            // objectFit: 'cover',
-            // objectPosition: 'center',
-            filter: 'brightness(1)', 
-          }}
+            filter: 'brightness(1)',
+            imageOrientation: 'from-image'
+            }}
         />
         {/* Rose filter overlay */}
         <div

@@ -2,10 +2,14 @@ body, html {
   overflow-x: hidden;
 }
 
-img, svg {
+svg {
   max-width: 100%;
   height: auto;
   display: block;
+}
+
+img {
+  image-orientation: from-image;
 }
 
 .app-background {
