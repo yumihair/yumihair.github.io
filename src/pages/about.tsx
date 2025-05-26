@@ -21,8 +21,8 @@ function About() {
           alt="balayage hair"
           style={{
             width: '100%',
-            objectFit: 'cover',
-            objectPosition: 'center',
+            // objectFit: 'cover',
+            // objectPosition: 'center',
             filter: 'brightness(1)', 
           }}
         />
@@ -34,9 +34,9 @@ function About() {
             left: 0,
             right: 0,
             bottom: 0,
-            backgroundColor: 'rgba(214, 166, 163, 0.3)', // subtle rose
-            pointerEvents: 'none',
-            mixBlendMode: 'multiply',
+            // backgroundColor: 'rgba(214, 166, 163, 0.3)', 
+            // pointerEvents: 'none',
+            // mixBlendMode: 'multiply',
           }}
         />
       </div>
