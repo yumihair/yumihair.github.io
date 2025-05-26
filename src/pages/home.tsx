@@ -1,4 +1,5 @@
 import Logo from "../components/Logo";
+import BookButton from "../components/BookButton";
 import '../assets/fonts/fonts.css'
 import './home.css'; 
 import flower from '../assets/graphics/flower.svg';
@@ -48,8 +49,10 @@ function Home() {
             color: 'white',
             textAlign: 'center',
             fontSize: '1.9rem',
-            margin: '10px 10% 0 10%',
+            margin: '10px 10% 10% 10%',
+            lineHeight: '1'
         }}>Dream Hair <p style={{margin: '0'}}>For</p> Everyone</div>
+        <BookButton name="Book an appointment"link="https://yummi-hair.square.site/" />
       </div>
     </div>
   );
