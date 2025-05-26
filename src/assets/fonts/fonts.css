@@ -1,0 +1,14 @@
+/* src/assets/fonts/fonts.css */
+@font-face {
+  font-family: 'LeJourScript';
+  src: url('./LeJourScript.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LeJourSerif';
+  src: url('./LeJourSerif.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
