@@ -1,17 +1,31 @@
 import React from 'react';
 import { FaFacebookF, FaInstagram, FaPinterestP } from 'react-icons/fa';
+import rose_branch from '../assets/graphics/branch_rosecolor.svg';
 
 const Footer = () => {
   return (
-    <footer style={{
+    <>
+    <img
+        src={rose_branch}
+        alt="branch outline"
+        style={{
+          maxWidth: '14rem',
+          position: 'absolute',
+          left: '-75px',
+          zIndex: '0',
+          rotate: '119deg',
+          overflow: 'hidden',
+        }}
+      />
+        <footer style={{
       backgroundColor: '#695650',
       color: 'white',
       padding: '2rem 1rem',
       fontFamily: 'quicksand',
       textAlign: 'center'
     }}>
-      <div style={{ marginBottom: '1rem' }}>
-         ONE17 Hair Studios<br />
+      <div style={{ marginBottom: '1rem', zIndex: '100' }}>
+        ONE17 Hair Studios<br />
         7315 W Warm Springs Rd. Las Vegas, NV 89113<br />
         <a href="mailto:Yummihairlv@gmail.com" style={{ color: '#fff' }}>Yummihairlv@gmail.com</a><br />
         <a href="tel:2067660469" style={{ color: '#fff' }}>206-766-0469</a>
@@ -28,6 +42,8 @@ const Footer = () => {
         </a>
       </div>
     </footer>
+    </>
+    
   );
 };
 
