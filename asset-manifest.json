@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.f1b456c9.css",
-    "main.js": "/static/js/main.530fb20f.js",
+    "main.css": "/static/css/main.655b9e48.css",
+    "main.js": "/static/js/main.c550105c.js",
     "static/media/about_photo_reize_small.png": "/static/media/about_photo_reize_small.07c77dd1984009338d96.png",
     "static/media/LeJourScript.otf": "/static/media/LeJourScript.f75bf4fa0397b1bbc58b.otf",
     "static/media/LeJourSerif.otf": "/static/media/LeJourSerif.a959e713df613e024039.otf",
     "static/media/branch_rosecolor.svg": "/static/media/branch_rosecolor.055f9525bfa53cb3424ed8c1ff1706ce.svg",
     "static/media/flower.svg": "/static/media/flower.47e4a85172ed23c2bfb7e30e69609201.svg",
     "index.html": "/index.html",
-    "main.f1b456c9.css.map": "/static/css/main.f1b456c9.css.map",
-    "main.530fb20f.js.map": "/static/js/main.530fb20f.js.map"
+    "main.655b9e48.css.map": "/static/css/main.655b9e48.css.map",
+    "main.c550105c.js.map": "/static/js/main.c550105c.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1b456c9.css",
-    "static/js/main.530fb20f.js"
+    "static/css/main.655b9e48.css",
+    "static/js/main.c550105c.js"
   ]
 }
