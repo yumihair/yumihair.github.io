@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.1b8fabae.css",
+    "main.css": "/static/css/main.042298b4.css",
     "main.js": "/static/js/main.50bdcf05.js",
     "static/js/453.86b1adf3.chunk.js": "/static/js/453.86b1adf3.chunk.js",
     "static/media/LeJourScript.otf": "/static/media/LeJourScript.f75bf4fa0397b1bbc58b.otf",
@@ -8,12 +8,12 @@
     "static/media/branch_rosecolor.svg": "/static/media/branch_rosecolor.055f9525bfa53cb3424ed8c1ff1706ce.svg",
     "static/media/flower.svg": "/static/media/flower.47e4a85172ed23c2bfb7e30e69609201.svg",
     "index.html": "/index.html",
-    "main.1b8fabae.css.map": "/static/css/main.1b8fabae.css.map",
+    "main.042298b4.css.map": "/static/css/main.042298b4.css.map",
     "main.50bdcf05.js.map": "/static/js/main.50bdcf05.js.map",
     "453.86b1adf3.chunk.js.map": "/static/js/453.86b1adf3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b8fabae.css",
+    "static/css/main.042298b4.css",
     "static/js/main.50bdcf05.js"
   ]
 }
