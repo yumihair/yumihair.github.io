@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.5134751a.js",
+    "main.css": "/static/css/main.1b8fabae.css",
+    "main.js": "/static/js/main.70161de1.js",
     "static/js/453.86b1adf3.chunk.js": "/static/js/453.86b1adf3.chunk.js",
+    "static/media/LeJourScript.otf": "/static/media/LeJourScript.f75bf4fa0397b1bbc58b.otf",
+    "static/media/LeJourSerif.otf": "/static/media/LeJourSerif.a959e713df613e024039.otf",
+    "static/media/branch_rosecolor.svg": "/static/media/branch_rosecolor.055f9525bfa53cb3424ed8c1ff1706ce.svg",
+    "static/media/flower.svg": "/static/media/flower.47e4a85172ed23c2bfb7e30e69609201.svg",
     "index.html": "/index.html",
-    "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.5134751a.js.map": "/static/js/main.5134751a.js.map",
+    "main.1b8fabae.css.map": "/static/css/main.1b8fabae.css.map",
+    "main.70161de1.js.map": "/static/js/main.70161de1.js.map",
     "453.86b1adf3.chunk.js.map": "/static/js/453.86b1adf3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.5134751a.js"
+    "static/css/main.1b8fabae.css",
+    "static/js/main.70161de1.js"
   ]
 }
