@@ -1,0 +1,8 @@
+.custom-accordion-header {
+  font-family: 'LeJourSerif';
+  padding: 20px;
+  font-size: 1.5rem;
+  text-align: center;
+  justify-content: center !important; /* override default flex alignment */
+  width: 100%;
+}

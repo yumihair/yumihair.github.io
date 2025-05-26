@@ -1,5 +1,6 @@
 import React from 'react';
 import { Accordion, Card, Container } from 'react-bootstrap';
+import '../pages/services.css';
 
 // Interfaces defined at the top of the file
 interface ServiceItem {
@@ -23,11 +24,9 @@ const ServicesAccordion: React.FC<ServicesAccordionProps> = ({ data }) => {
       <Accordion>
         {data.map((section: ServiceCategory, idx: number) => (
           <Accordion.Item eventKey={String(idx)} key={section.category}>
-            <Accordion.Header style={{
-                fontFamily: 'LeJourSerif',
-                fontSize: '3rem',
-                textAlign: 'center'
-                }}>{section.category}</Accordion.Header>
+            <Accordion.Header className="custom-accordion-header">
+                {section.category}
+            </Accordion.Header>
             <Accordion.Body style={{
                 fontFamily: 'quicksand',
                 marginBottom: '20px'
