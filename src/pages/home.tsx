@@ -1,8 +1,8 @@
-import Logo from "./components/Logo";
-import './assets/fonts/fonts.css';
+import Logo from "../components/Logo";
+import '../assets/fonts/fonts.css'
 import './home.css'; 
-import flower from './assets/graphics/flower.svg';
-import rose_branch from './assets/graphics/branch_rosecolor.svg';
+import flower from '../assets/graphics/flower.svg';
+import rose_branch from '../assets/graphics/branch_rosecolor.svg';
 
 function Home() {
   return (
@@ -39,7 +39,7 @@ function Home() {
             marginTop: '1rem', 
             maxWidth: '18rem',
             position: 'absolute',
-            top: '20%',
+            top: '24%',
             zIndex: '0'
         }}
       />
