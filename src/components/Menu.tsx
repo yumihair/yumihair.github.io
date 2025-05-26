@@ -21,14 +21,14 @@ function Menu() {
             {/* Social media line */}
             <div className="d-flex gap-3 mt-2 mt-lg-0 ms-lg-auto social-links">
               <Nav.Link href="https://facebook.com" target="_blank">
-                <FaFacebook />
-              </Nav.Link>
-              <Nav.Link href="https://x.com" target="_blank">
-                <FaXTwitter  />
-              </Nav.Link>
-              <Nav.Link href="https://instagram.com" target="_blank">
-                <FaInstagram />
-              </Nav.Link>
+                <span><FaFacebook /></span>
+             </Nav.Link>
+             <Nav.Link href="https://x.com" target="_blank">
+                <span><FaXTwitter /></span>
+             </Nav.Link>
+             <Nav.Link href="https://instagram.com" target="_blank">
+                <span><FaInstagram /></span>
+             </Nav.Link>
             </div>
           </Nav>
         </Navbar.Collapse>
