@@ -5,6 +5,7 @@ import Services from './pages/services';
 import Shop from './pages/shop';
 import Gallery from './pages/gallery';
 import Contact from './pages/contact';
+import Footer from './components/Footer';
 import './assets/fonts/fonts.css'
 import './App.css'; 
 
@@ -19,6 +20,7 @@ function App() {
       <Shop />
       <Gallery />
       <Contact />
+      <Footer />
     </div>
   );
 }
