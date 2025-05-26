@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Navbar, Nav } from 'react-bootstrap';
-import { FaFacebookF, FaInstagram, FaXTwitter } from 'react-icons/fa6'; // Icons
+import { FaXTwitter } from "react-icons/fa6";
+import { FaFacebook, FaInstagram } from "react-icons/fa";
 
 function Menu() {
   return (
@@ -20,10 +21,10 @@ function Menu() {
             {/* Social media line */}
             <div className="d-flex gap-3 mt-2 mt-lg-0 ms-lg-auto social-links">
               <Nav.Link href="https://facebook.com" target="_blank">
-                <FaFacebookF />
+                <FaFacebook />
               </Nav.Link>
               <Nav.Link href="https://x.com" target="_blank">
-                <FaXTwitter />
+                <FaXTwitter  />
               </Nav.Link>
               <Nav.Link href="https://instagram.com" target="_blank">
                 <FaInstagram />
