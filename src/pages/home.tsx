@@ -17,7 +17,9 @@ function Home() {
             position: 'absolute',
             right: '-113px',
             zIndex: '0',
-            rotate: '45deg'
+            rotate: '45deg',
+            overflow: 'hidden'
+            
         }}
       />
       <img
@@ -29,7 +31,8 @@ function Home() {
             left: '-75px',
             bottom: '-1px',
             zIndex: '0',
-            rotate: '119deg'
+            rotate: '119deg',
+            overflow: 'hidden'
         }}
       />
       <div className='center-screen'>
