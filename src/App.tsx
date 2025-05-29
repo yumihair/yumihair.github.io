@@ -20,7 +20,7 @@ function App() {
       <About />
       <Services />
       <Shop />
-      <Gallery folderId={yummifolderId} apiKey={yummiapiKey}/>
+      <Gallery />
       <Contact />
       <Footer />
     </div>
