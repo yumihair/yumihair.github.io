@@ -9,6 +9,8 @@ import Footer from './components/Footer';
 import './assets/fonts/fonts.css'
 import './App.css'; 
 
+const yummifolderId = process.env.REACT_APP_FOLDER_ID as string;
+const yummiapiKey = process.env.REACT_APP_API_KEY as string;
 
 function App() {
   return (
@@ -18,7 +20,7 @@ function App() {
       <About />
       <Services />
       <Shop />
-      <Gallery />
+      <Gallery folderId={yummifolderId} apiKey={yummiapiKey}/>
       <Contact />
       <Footer />
     </div>
