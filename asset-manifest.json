@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.2e23cd0d.css",
-    "main.js": "/static/js/main.77064711.js",
+    "main.css": "/static/css/main.99bc0a40.css",
+    "main.js": "/static/js/main.b945ff9d.js",
     "static/media/RESIZE_1.jpg": "/static/media/RESIZE_1.1696b489ce6084e66748.jpg",
+    "static/media/RESIZE_5.jpg": "/static/media/RESIZE_5.53cf1ed67a2379ab7253.jpg",
+    "static/media/RESIZE_8.jpg": "/static/media/RESIZE_8.89f9878bd77aa44a321f.jpg",
     "static/media/RESIZE_2.jpg": "/static/media/RESIZE_2.345339353f3a6c97f353.jpg",
     "static/media/RESIZE_3.jpg": "/static/media/RESIZE_3.b033b54ae9bd980a114b.jpg",
+    "static/media/RESIZE_7.jpg": "/static/media/RESIZE_7.73a0879ac086506b1679.jpg",
+    "static/media/RESIZE_6.jpg": "/static/media/RESIZE_6.de8ab8fd8251f5cc1010.jpg",
     "static/media/RESIZE_4.jpg": "/static/media/RESIZE_4.318f0e7dd4701a664dea.jpg",
-    "static/media/about_photo_reize_small.png": "/static/media/about_photo_reize_small.07c77dd1984009338d96.png",
+    "static/media/RESIZE_10.jpg": "/static/media/RESIZE_10.580c554e5361b62a5900.jpg",
+    "static/media/RESIZE_9.jpg": "/static/media/RESIZE_9.893496041ee213fdba96.jpg",
     "static/media/LeJourScript.otf": "/static/media/LeJourScript.f75bf4fa0397b1bbc58b.otf",
     "static/media/logo.png": "/static/media/logo.36516bccc18ea725b660.png",
     "static/media/LeJourSerif.otf": "/static/media/LeJourSerif.a959e713df613e024039.otf",
     "static/media/branch_rosecolor.svg": "/static/media/branch_rosecolor.055f9525bfa53cb3424ed8c1ff1706ce.svg",
     "static/media/flower.svg": "/static/media/flower.47e4a85172ed23c2bfb7e30e69609201.svg",
     "index.html": "/index.html",
-    "main.2e23cd0d.css.map": "/static/css/main.2e23cd0d.css.map",
-    "main.77064711.js.map": "/static/js/main.77064711.js.map"
+    "main.99bc0a40.css.map": "/static/css/main.99bc0a40.css.map",
+    "main.b945ff9d.js.map": "/static/js/main.b945ff9d.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e23cd0d.css",
-    "static/js/main.77064711.js"
+    "static/css/main.99bc0a40.css",
+    "static/js/main.b945ff9d.js"
   ]
 }
