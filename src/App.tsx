@@ -6,8 +6,10 @@ import Shop from './pages/shop';
 import Gallery from './pages/gallery';
 import Contact from './pages/contact';
 import Footer from './components/Footer';
+import AcuityEmbed from './components/AcuityEmbed';
 import './assets/fonts/fonts.css'
 import './App.css'; 
+import Policies from './pages/policies';
 
 const yummifolderId = process.env.REACT_APP_FOLDER_ID as string;
 const yummiapiKey = process.env.REACT_APP_API_KEY as string;
@@ -22,6 +24,7 @@ function App() {
       <Shop />
       <Gallery />
       <Contact />
+
       <Footer />
     </div>
   );

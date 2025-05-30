@@ -6,38 +6,44 @@ const servicesData = [
         name: "Balayage",
         description:
           "Free-hand painting highlights onto the hair, creating a soft and natural gradation of lightness towards the ends.",
-        price: "$150+",
+        price: "$255+",
+        link: "https://app.acuityscheduling.com/schedule.php?owner=35925765&appointmentType=78972027"
       },
       {
         name: "Full Highlights",
         description:
           "More than 10+ foils, double process. Includes toner and gloss to achieve the desired look.",
-        price: "$130+",
+        price: "$235",
+        link: "ttps://app.acuityscheduling.com/schedule.php?owner=35925765&appointmentType=78975051"
       },
       {
         name: "Partial Highlights",
         description:
           "Less than 10 foils, double process. Includes toner and gloss to achieve the desired look.",
-        price: "$95+",
-      },
+        price: "$205",
+        link: "https://app.acuityscheduling.com/schedule.php?owner=35925765&appointmentType=78975268"
+    },
       {
         name: "Low Lights",
         description:
           "2–3 shades darker than your base. Adds richness and depth.",
-        price: "$85+",
-      },
+        price: "$70",
+        link: "https://app.acuityscheduling.com/schedule.php?owner=35925765&appointmentType=78975297"
+    },
       {
         name: "Single Color",
         description:
           "Single process color including root touch ups. Includes gloss and toner through ends.",
-        price: "$95+",
-      },
+        price: "$105",
+        link: "https://app.acuityscheduling.com/schedule.php?owner=35925765&appointmentType=78975333"
+    },
       {
         name: "Toner",
         description:
           "Used to balance color. Can be done at the chair or shampoo bowl.",
-        price: "$25+",
-      },
+        price: "$50",
+        link: "https://app.acuityscheduling.com/schedule.php?owner=35925765&appointmentType=78975363"
+    },
     ],
   },
   {
@@ -47,7 +53,8 @@ const servicesData = [
         name: "Haircut",
         description:
           "Wet or dry cutting techniques. Includes wash, treatment if needed, and blow dry & style.",
-        price: "$65+",
+        price: "$75",
+        link: "https://app.acuityscheduling.com/schedule.php?owner=35925765&appointmentType=78975388"
       },
       {
         name: "Beard Trim",
