@@ -1,6 +1,6 @@
 import React from 'react';
 import Title from '../components/Title';
-import Photo from '../assets/images/about_photo_reize_small.png';
+import Photo from '../assets/images/Photos/RESIZE_9.jpg';
 
 function About() {
   return (
@@ -33,9 +33,9 @@ function About() {
             left: 0,
             right: 0,
             bottom: 0,
-            // backgroundColor: 'rgba(214, 166, 163, 0.3)', 
-            // pointerEvents: 'none',
-            // mixBlendMode: 'multiply',
+            backgroundColor: 'rgba(214, 166, 163)', 
+            pointerEvents: 'none',
+            mixBlendMode: 'multiply',
           }}
         />
       </div>

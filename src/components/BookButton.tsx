@@ -4,6 +4,9 @@ import { Button } from 'react-bootstrap';
 interface BookButtonProps {
   name: string;
   link: string;
+  type?: 'button' | 'submit' | 'reset';
+  disabled?: boolean;
+  onClick?: () => void;
 }
 
 const BookButton: React.FC<BookButtonProps> = ({ name, link }) => {
