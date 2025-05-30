@@ -1,6 +1,7 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import BookButton from '../components/BookButton'; // adjust path as needed
+import { Button } from 'react-bootstrap';
 
 function ContactForm() {
   const [state, handleSubmit] = useForm("xkgbwjzn");
@@ -70,8 +71,22 @@ function ContactForm() {
           <ValidationError prefix="Message" field="message" errors={state.errors} />
         </div>
 
+
         <div style={{ textAlign: "center", marginBottom: "30px" }}>
-          <BookButton type="submit" name="Send Message" link='' disabled={state.submitting} />
+        <Button type="submit" disabled={state.submitting} 
+        variant="outline-light"
+            style={{
+                borderRadius: '0',
+                borderWidth: '3px',
+                fontFamily: 'Quicksand, sans-serif',
+                textTransform: 'uppercase',
+                fontWeight: 600,
+                padding: '0.5rem 1.2rem',
+                letterSpacing: '0.05em',
+                zIndex: 100
+        }}>
+                Submit
+      </Button>
         </div>
       </form>
     </div>
