@@ -40,7 +40,7 @@ const Gallery: React.FC = () => {
 
   return (
     <div style={{ minHeight: '100vh', position: 'relative' }}>
-      <Title name="Gallery" cursiveName="hair" />
+      <Title name="Gallery" cursiveName="designs" />
       <div style={{ 
                     fontFamily: 'quicksand',
                     margin: '30px 20px 10px 20px',

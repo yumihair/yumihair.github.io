@@ -11,7 +11,7 @@ function Menu() {
   const closeMenu = () => setExpanded(false);
 
   return (
-    <Navbar expand="lg" fixed="top" className="custom-navbar">
+    <Navbar expand="lg" fixed="top" className="custom-navbar" style={{backgroundColor: '#d9a6a1', opacity: '0.9'}}>
       <Container fluid className="d-flex justify-content-between align-items-center">
         {/* Logo toggle button */}
         <div onClick={toggleMenu} style={{ cursor: 'pointer' }}>
@@ -20,9 +20,9 @@ function Menu() {
 
         {/* Social Icons on the Right */}
         <div className="social-icons d-flex align-items-center gap-3">
-          <a href="https://facebook.com" target="_blank" rel="noreferrer"><FaFacebook /></a>
+          <a href="https://www.facebook.com/profile.php?id=100069476236163" target="_blank" rel="noreferrer"><FaFacebook /></a>
           <a href="https://pinterest.com" target="_blank" rel="noreferrer"><FaPinterestP /></a>
-          <a href="https://instagram.com" target="_blank" rel="noreferrer"><FaInstagram /></a>
+          <a href="https://www.instagram.com/yummihair?igsh=dmp1aHJwdnQzYzdj" target="_blank" rel="noreferrer"><FaInstagram /></a>
         </div>
 
         {/* Fullscreen Mobile Nav */}
@@ -43,9 +43,9 @@ function Menu() {
               <Nav.Link href="#contact" onClick={closeMenu}>Contact</Nav.Link>
               <Nav.Link href="#faqs" onClick={closeMenu}>FAQ</Nav.Link>
               <div className="d-flex justify-content-center gap-3 mt-4">
-                <a href="https://facebook.com" target="_blank" rel="noreferrer"><FaFacebook /></a>
+                <a href="https://www.facebook.com/profile.php?id=100069476236163" target="_blank" rel="noreferrer"><FaFacebook /></a>
                 <a href="https://pinterest.com" target="_blank" rel="noreferrer"><FaPinterestP /></a>
-                <a href="https://instagram.com" target="_blank" rel="noreferrer"><FaInstagram /></a>
+                <a href="https://www.instagram.com/yummihair?igsh=dmp1aHJwdnQzYzdj" target="_blank" rel="noreferrer"><FaInstagram /></a>
               </div>
             </Nav>
           </div>

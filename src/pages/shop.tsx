@@ -5,7 +5,7 @@ import './shop.css';
 function Shop() {
     return(
         <div style={{ minHeight: '100vh', position: 'relative' }}>
-              <Title name="Shop" cursiveName="hair" />
+              <Title name="Shop" cursiveName="essentials" />
               <div style={{ 
                     fontFamily: 'quicksand',
                     margin: '30px 20px 10px 20px',
