@@ -19,7 +19,7 @@ const Title: React.FC<TitleProps> = ({ name, cursiveName }) => {
             }}>{name}</div>
             <div style={{
                 fontSize: '5rem',
-                fontFamily: 'LeJourScript',
+                fontFamily: 'Pinyon Script',
                 color: 'white',
                 margin: '-71px 100px 0px'
             }}>{cursiveName}</div>

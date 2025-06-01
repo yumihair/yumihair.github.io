@@ -23,8 +23,8 @@ function App() {
       <Services />
       <Shop />
       <Gallery />
+      <Policies />
       <Contact />
-
       <Footer />
     </div>
   );

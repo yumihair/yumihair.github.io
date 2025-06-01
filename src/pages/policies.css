@@ -1,0 +1,10 @@
+.question {
+    font-family: "Julius Sans One";
+    margin: 40px 10px 10px 10px;
+    font-size: 1.3rem;
+}
+
+.description {
+    font-family: 'Quicksand';
+    margin: 10px;
+}

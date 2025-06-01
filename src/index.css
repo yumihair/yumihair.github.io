@@ -22,3 +22,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.accordion-button {
+  font-size: 2rem !important;
+  color: #af7864 !important;
+}

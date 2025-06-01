@@ -41,6 +41,17 @@ const Gallery: React.FC = () => {
   return (
     <div style={{ minHeight: '100vh', position: 'relative' }}>
       <Title name="Gallery" cursiveName="hair" />
+      <div style={{ 
+                    fontFamily: 'quicksand',
+                    margin: '30px 20px 10px 20px',
+                    color: 'white'
+                }}>
+                    Check out my <a href="https://www.instagram.com/yummihair?igsh=dmp1aHJwdnQzYzdj"  
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{color: 'white', fontWeight: '700'}}>instagram</a> for the most recent hair updates and trends
+                    that I've done.
+                </div>
         <div className="video-wrapper" style={{
         marginTop: "30px"
       }}>
@@ -64,7 +75,7 @@ const Gallery: React.FC = () => {
         textAlign: "center",
         margin: "30px"
       }}>
-        <BookButton name="Check out my instagram" link="https://yummi-hair.square.site/" />
+        <BookButton name="Check out my instagram" link="https://www.instagram.com/yummihair?igsh=dmp1aHJwdnQzYzdj" />
       </div>
       
     </div>

@@ -46,10 +46,16 @@ const ShopMyCollection: React.FC<ShopMyCollectionProps> = ({ collectionId }) => 
           href={`https://shopmy.us/collections/${collectionId}`}
           target="_blank"
           rel="noopener noreferrer"
+          style={{ color: 'inherit', textDecoration: 'none'}}
         >
           <h2
             className="text-2xl font-bold mb-3"
-            style={{ fontFamily: 'LeJourSerif', color: 'black' }}
+            style={{ 
+                fontFamily: '"Julius Sans One"',
+                color: 'white',
+                marginLeft: '20px',
+                fontSize: '1.3rem'
+            }}
           >
             {collectionName}
           </h2>
@@ -75,9 +81,9 @@ const ShopMyCollection: React.FC<ShopMyCollectionProps> = ({ collectionId }) => 
 
       {/* Scrollable Row */}
       <div
-        className="d-flex overflow-auto gap-3 py-2 px-4"
+        className="d-flex overflow-auto gap-3 py-2 px-2"
         ref={scrollContainerRef}
-        style={{ scrollSnapType: 'x mandatory' }}
+        style={{ }}
       >
         {products.map((product) => (
           <a
