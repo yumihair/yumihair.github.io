@@ -18,7 +18,7 @@ function ContactForm() {
   }
 
   return (
-    <div className="container mt-5" style={{ maxWidth: 600, textAlign: "right", color: "white" }}>
+    <div className="container mt-5" style={{ maxWidth: 600, textAlign: "left", color: "white" }}>
       <form onSubmit={handleSubmit}>
         <div className="mb-3">
           <label htmlFor="name" className="form-label" style={{
@@ -40,11 +40,11 @@ function ContactForm() {
             fontFamily: "LeJourSerif",
             fontSize: "1.2rem"
           }}>
-            <span style={{
+            CONTACT <span style={{
               fontFamily: "quicksand",
               textTransform: "uppercase",
               fontSize: "0.8rem"
-            }}>email or phone </span>CONTACT
+            }}>email or phone </span>
           </label>
           <input
             id="email"

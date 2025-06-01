@@ -26,6 +26,21 @@ const Contact: React.FC = () => {
     return(
         <div style={{ minHeight: '100vh', position: 'relative' }}>
               <Title name="Contact" cursiveName="inquiries" />
+              <div style={{ 
+                    fontFamily: 'quicksand',
+                    margin: '30px 20px 10px 20px',
+                    color: 'white'
+                }}>I'd love to hear from you! Whether you're ready to book or have a quick question, feel free to reach out. I am located at <a 
+            href="https://www.google.com/maps/place/7315+W+Warm+Springs+Rd,+Las+Vegas,+NV+89113" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            style={{ 
+              color: '#fff', 
+              fontWeight: '700',
+            }}
+          >ONE17 Hair Studios, 7315 W Warm Springs Rd. Las Vegas, NV 89113</a>.
+          
+          </div>
               <div style={{
                 width: "100%",
                 maxWidth: "600px", /* Match your gallery/video width */
@@ -46,6 +61,21 @@ const Contact: React.FC = () => {
                 ></iframe>
             </div>
 
+            <div style={{ 
+                    fontFamily: 'quicksand',
+                    margin: '30px 20px 10px 20px',
+                    color: 'white'
+                }}>Feel free to use the message box below to send me a message, or you can text or DM me <a 
+            href="https://www.google.com/maps/place/7315+W+Warm+Springs+Rd,+Las+Vegas,+NV+89113" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            style={{ 
+              color: '#fff', 
+              fontWeight: '700',
+            }}
+          >@yummihair</a> for inquiries or last-minute availability at <a href="tel:+12067660469" style={{ color: 'inherit', textDecoration: 'underline', fontWeight: '700' }}>
+    206-766-0469
+  </a>. Please book online or reach out directly to get started!</div>
             <ContactForm />
 
         </div>
