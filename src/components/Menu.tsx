@@ -27,7 +27,7 @@ function Menu() {
 
         {/* Fullscreen Mobile Nav */}
         <Collapse in={expanded}>
-          <div className="mobile-nav-overlay">
+          <div className="mobile-nav-overlay" style={{opacity: '0.8'}}>
             <div className="text-end w-100">
               <button className="btn btn-link text-dark fs-1" onClick={closeMenu}>
                 &times;
@@ -36,12 +36,12 @@ function Menu() {
             <Nav className="flex-column text-center" style={{
                 fontFamily: 'LeJourSerif'
             }}>
-              <Nav.Link href="#book" onClick={closeMenu}>Book</Nav.Link>
-              <Nav.Link href="#services" onClick={closeMenu}>Services</Nav.Link>
+              <Nav.Link href="#services" onClick={closeMenu}>Book</Nav.Link>
+              <Nav.Link href="#about" onClick={closeMenu}>Services</Nav.Link>
               <Nav.Link href="#shop" onClick={closeMenu}>Shop</Nav.Link>
               <Nav.Link href="#gallery" onClick={closeMenu}>Gallery</Nav.Link>
               <Nav.Link href="#contact" onClick={closeMenu}>Contact</Nav.Link>
-              <Nav.Link href="#faq" onClick={closeMenu}>FAQ</Nav.Link>
+              <Nav.Link href="#faqs" onClick={closeMenu}>FAQ</Nav.Link>
               <div className="d-flex justify-content-center gap-3 mt-4">
                 <a href="https://facebook.com" target="_blank" rel="noreferrer"><FaFacebook /></a>
                 <a href="https://pinterest.com" target="_blank" rel="noreferrer"><FaPinterestP /></a>

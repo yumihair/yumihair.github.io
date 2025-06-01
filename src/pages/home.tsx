@@ -57,7 +57,7 @@ function Home() {
             color: 'white',
             textAlign: 'center',
             fontSize: '1.9rem',
-            margin: '10px 10% 10% 10%',
+            margin: '10px 10% 8% 10%',
             lineHeight: '1',
           }}
         >

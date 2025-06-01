@@ -19,12 +19,24 @@ function App() {
     <div className='app-background'>
       <Menu />
       <Home />
-      <About />
-      <Services />
-      <Shop />
-      <Gallery />
-      <Policies />
-      <Contact />
+      <div id="about">
+        <About />
+      </div>
+      <div id="services">
+        <Services />
+      </div>
+      <div id="shop">
+        <Shop />
+      </div>
+      <div id="gallery">
+        <Gallery />
+      </div>
+      <div id="faqs">
+        <Policies />
+      </div>
+      <div id="contact">
+        <Contact />
+      </div>
       <Footer />
     </div>
   );
