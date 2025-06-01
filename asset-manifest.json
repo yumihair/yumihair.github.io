@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c3d1f349.css",
-    "main.js": "/static/js/main.796da690.js",
+    "main.css": "/static/css/main.85549c5b.css",
+    "main.js": "/static/js/main.b17100e5.js",
     "static/media/RESIZE_1.jpg": "/static/media/RESIZE_1.1696b489ce6084e66748.jpg",
     "static/media/RESIZE_5.jpg": "/static/media/RESIZE_5.53cf1ed67a2379ab7253.jpg",
     "static/media/RESIZE_8.jpg": "/static/media/RESIZE_8.89f9878bd77aa44a321f.jpg",
@@ -15,14 +15,17 @@
     "static/media/LeJourScript.otf": "/static/media/LeJourScript.f75bf4fa0397b1bbc58b.otf",
     "static/media/logo.png": "/static/media/logo.36516bccc18ea725b660.png",
     "static/media/LeJourSerif.otf": "/static/media/LeJourSerif.a959e713df613e024039.otf",
+    "static/media/eco_icon.png": "/static/media/eco_icon.06f33cb99d3fd2dd2f6d.png",
+    "static/media/blowerdryer_icon.png": "/static/media/blowerdryer_icon.18ee20471ff2cd15f4ac.png",
     "static/media/branch_rosecolor.svg": "/static/media/branch_rosecolor.055f9525bfa53cb3424ed8c1ff1706ce.svg",
     "static/media/flower.svg": "/static/media/flower.47e4a85172ed23c2bfb7e30e69609201.svg",
+    "static/media/scissors_icon.png": "/static/media/scissors_icon.3f5ce6c9828bb1b59e37.png",
     "index.html": "/index.html",
-    "main.c3d1f349.css.map": "/static/css/main.c3d1f349.css.map",
-    "main.796da690.js.map": "/static/js/main.796da690.js.map"
+    "main.85549c5b.css.map": "/static/css/main.85549c5b.css.map",
+    "main.b17100e5.js.map": "/static/js/main.b17100e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3d1f349.css",
-    "static/js/main.796da690.js"
+    "static/css/main.85549c5b.css",
+    "static/js/main.b17100e5.js"
   ]
 }
