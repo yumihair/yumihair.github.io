@@ -48,7 +48,7 @@ function Home() {
             zIndex: '0',
           }}
         />
-        <div style={{marginTop: '5%', zIndex: 100}}>
+        <div style={{marginTop: '15%', zIndex: 100}}>
         <Logo />
         </div>
         <div
