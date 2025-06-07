@@ -52,9 +52,8 @@ const Gallery: React.FC = () => {
                 style={{color: 'white', fontWeight: '700'}}>instagram</a> for the most recent hair updates and trends
                     that I've done.
                 </div>
-        <div className="video-wrapper" style={{
-        marginTop: "30px"
-      }}>
+        
+        <div className="video-wrapper">
             <iframe
                 src="https://player.vimeo.com/video/464877913?title=0&byline=0&portrait=0"
                 frameBorder="0"
@@ -63,7 +62,6 @@ const Gallery: React.FC = () => {
                 title="Embedded Vimeo Video"
             ></iframe>
         </div>
-        
       <div className="grid-container slide-fade" ref={slideRef}>
         {imagesToShow.map((url, idx) => (
           <div key={idx} className="grid-item rose-overlay">

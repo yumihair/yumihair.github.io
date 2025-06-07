@@ -27,3 +27,7 @@ code {
   font-size: 2rem !important;
   color: #af7864 !important;
 }
+
+.accordion-button:not(.collapsed) {
+  background-color: #f1cec1 !important;
+}
