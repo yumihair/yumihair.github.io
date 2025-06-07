@@ -7,7 +7,7 @@ import ScissorsIcon from '../assets/graphics/scissors_icon.png';
 
 function About() {
   return (
-    <div style={{ minHeight: '100vh', position: 'relative' }}>
+    <div style={{ position: 'relative' }}>
       <Title name="Hair & makeup" cursiveName="services" />
 
       {/* Symbols Section */}

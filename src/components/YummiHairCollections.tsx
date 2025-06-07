@@ -30,11 +30,6 @@ const YummiHairCollections: React.FC = () => {
     <div style={{
         marginTop: '30px'
     }}>
-      {/* <h1 className="text-3xl font-bold mb-6" style={{
-                    fontFamily: "LeJourSerif",
-                    color: "white",
-                    margin: "20px"
-                }}>Yummi's Collections</h1> */}
       
       {collectionIds.map((id) => (
         <ShopMyCollection collectionId={id} />
