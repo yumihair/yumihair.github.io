@@ -21,7 +21,7 @@ function Menu() {
         {/* Social Icons on the Right */}
         <div className="social-icons d-flex align-items-center gap-3">
           <a href="https://www.facebook.com/profile.php?id=100069476236163" target="_blank" rel="noreferrer"><FaFacebook /></a>
-          <a href="https://pinterest.com" target="_blank" rel="noreferrer"><FaPinterestP /></a>
+          <a href="https://pin.it/5xt1niZ6I" target="_blank" rel="noreferrer"><FaPinterestP /></a>
           <a href="https://www.instagram.com/yummihair?igsh=dmp1aHJwdnQzYzdj" target="_blank" rel="noreferrer"><FaInstagram /></a>
         </div>
 
@@ -44,7 +44,7 @@ function Menu() {
               <Nav.Link href="#faqs" onClick={closeMenu}>FAQ</Nav.Link>
               <div className="d-flex justify-content-center gap-3 mt-4">
                 <a href="https://www.facebook.com/profile.php?id=100069476236163" target="_blank" rel="noreferrer"><FaFacebook /></a>
-                <a href="https://pinterest.com" target="_blank" rel="noreferrer"><FaPinterestP /></a>
+                <a href="https://pin.it/5xt1niZ6I" target="_blank" rel="noreferrer"><FaPinterestP /></a>
                 <a href="https://www.instagram.com/yummihair?igsh=dmp1aHJwdnQzYzdj" target="_blank" rel="noreferrer"><FaInstagram /></a>
               </div>
             </Nav>

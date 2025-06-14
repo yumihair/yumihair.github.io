@@ -45,8 +45,32 @@ const ServicesAccordion: React.FC<ServicesAccordionProps> = ({ data }) => {
                         <span className="text-muted" style={{fontFamily: 'quicksand'}}>{service.price}</span>
                       </Card.Title>
                       <Card.Text>{service.description}</Card.Text>
+                <div className="text-center mt-3">
+                  <a
+                    href={service.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn"
+                    style={{
+                      backgroundColor: "#bf8f83",
+                      borderRadius: '0',
+                      fontFamily: 'Julius Sans One',
+                      textTransform: 'uppercase',
+                      color: 'white',
+                      fontSize: '1rem',
+                      padding: '0.5rem 1.2rem',
+                      letterSpacing: '0.05em',
+                      zIndex: 100,
+                      textDecoration: 'none',
+                      display: 'inline-block'
+                    }}
+                  >
+                    Book Now
+                  </a>
+                </div>
 
-                      {service.link && (
+
+                      {/* {service.link && (
                         <div className="text-center mt-3">
                           <Button
                             variant="light"
@@ -78,7 +102,7 @@ const ServicesAccordion: React.FC<ServicesAccordionProps> = ({ data }) => {
                             title={`Booking for ${service.name}`}
                           ></iframe>
                         </div>
-                      )}
+                      )} */}
                     </Card.Body>
                   </Card>
                 );
